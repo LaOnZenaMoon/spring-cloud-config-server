@@ -3,7 +3,7 @@ spring:
     driverClassName: org.h2.Driver
     url: jdbc:h2:mem:testdb;
     username: sa
-    password:
+    password: '{cipher}751b0d46d8e23bcce85845c62013d84b40491f2da7df9775d1e57e75af20ddda'
     hikari:
       maximum-pool-size: 5
 
