@@ -3,7 +3,7 @@ spring:
     driverClassName: org.h2.Driver
     url: jdbc:h2:mem:testdb;
     username: sa
-    password: '{cipher}751b0d46d8e23bcce85845c62013d84b40491f2da7df9775d1e57e75af20ddda'
+    password: '{cipher}AQARxH9lNrUcDI9UkqXOl2nI5BFqUem19tAt2CD4wW0+Lfsswca6lXDr1Jy7P5g2GopssqMsRL4E7jwL8b2mKTqEIjXZJiQGutFwIMMFbfZ/SSSNADsataJSWE1+MuhqUO+/9AZETR++kq5Sq2GxxH2/Y+gLSLTgkWDgeTmrrFBnEVWRLZBfwQoRiV8NguxcxZ4bRSVMjr+X9waRyLxW4HUsIFotxLw8PAuYjI4CHaoZ+XLCS2lQBjCI3lAfKkRm7gyucd8KXZ0aiMe59GLTZ2mPIxEOog89C+fpQZRq3W00YU0IdAQt05lpKuV9YcICVXy+uv8THDWpDyPKte2QU1F4apz6OVaZrkPx+XADREMn0ZncEAsZAZ8dZaosgGVzwnQ='
     hikari:
       maximum-pool-size: 5
 
