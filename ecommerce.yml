@@ -1,0 +1,4 @@
+jwt-token:
+  expiration-time: 86400000 # 1 day
+  secret-key: laonzenamoon
+
