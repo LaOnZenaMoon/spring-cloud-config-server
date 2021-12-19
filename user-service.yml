@@ -16,4 +16,4 @@ microservice:
     url: http://localhost:8000
   order-service:
     url: http://ORDER-SERVICE-APP
-    get-users-orders: /order-service/%s/orders
+    get-users-orders: /%s/orders
