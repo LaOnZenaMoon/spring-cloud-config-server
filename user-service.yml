@@ -13,5 +13,5 @@ jwt-token:
 
 microservice:
   gateway-server: http://localhost:8000
-  order-service:
+  order-service: http://ORDER-SERVICE-APP
     get-users-orders: /order-service/%s/orders
