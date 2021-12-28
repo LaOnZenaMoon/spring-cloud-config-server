@@ -4,16 +4,3 @@ spring:
     url: jdbc:h2:mem:testdb;
     username: sa
     password: '{cipher}AQARxH9lNrUcDI9UkqXOl2nI5BFqUem19tAt2CD4wW0+Lfsswca6lXDr1Jy7P5g2GopssqMsRL4E7jwL8b2mKTqEIjXZJiQGutFwIMMFbfZ/SSSNADsataJSWE1+MuhqUO+/9AZETR++kq5Sq2GxxH2/Y+gLSLTgkWDgeTmrrFBnEVWRLZBfwQoRiV8NguxcxZ4bRSVMjr+X9waRyLxW4HUsIFotxLw8PAuYjI4CHaoZ+XLCS2lQBjCI3lAfKkRm7gyucd8KXZ0aiMe59GLTZ2mPIxEOog89C+fpQZRq3W00YU0IdAQt05lpKuV9YcICVXy+uv8THDWpDyPKte2QU1F4apz6OVaZrkPx+XADREMn0ZncEAsZAZ8dZaosgGVzwnQ='
-    hikari:
-      maximum-pool-size: 5
-
-jwt-token:
-  expiration-time: 86400000 # 1 day
-  secret-key: '{cipher}AQAAsniVjB5Yylrfg7CbMdaXoMyDCfvVgVVAVew62Eq+8ae/oFtkIUiTvSJcgu3Dvjqa2z+4Iy3wZV6DCuu73zkhFR3oFzrYHVZNFx4KUU2jcGOfqEkRbZsnybOA/7zZmvrtofArFGrZMz0E97si6DJotu75vGHp0eOhBxosolOyPx30Y2FW4lRd06kmOk3gBS3emgO12b+M3J+tluFYMmludsPD95T+3KadAX1HxSgfuQeoVZIe6hJ0upub16u9zDNmVM9D6xm6uaqMm4ZD29TFg9VXXLiyeaDS+eCgbpZE3m1ESksIFBGWPbEGhCeTrQNjS0N6QBZBaSs/G6YpCiPayh7n+8H6mwEi69+mfJyDYA/xobHhflHesckYfbWPiq9+Gqg9+YwjgGLa0GRR4AWS'
-
-microservice:
-  gateway-server:
-    url: http://localhost:8000
-  order-service:
-    url: http://ORDER-SERVICE-APP
-    get-users-orders: /%s/orders
