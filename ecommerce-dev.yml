@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driverClassName: org.mariadb.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mydb
+    username: root
+    password: '{cipher}AQAjTDO4kqMgJIk5Ry3dCaaN9T5Hskb70EtDphJaZ9ds7qRFFCcl8355jhwynzgTuQYDYeo6qcd83bsLxk5ueGpA69le+XeAvwyadgCk66j+LKoejHMs4BHO6BbrwSyWm7fitkiBalMK4fTGOqBuVfqdSpEJXqd6e4y1I68phyAv6XzXt7YWacWej7qvZRxnPozV2QCZ2PuesuC2eRldLDqmLSZ4x0WvSfURx75loIlifW5PXMp2snYddVRz+0LuMg7NDJzEEig9o3nGwTvos605KxBDJWuZkqo2j/A5VuMXKe988aj6//y9lWs4AYvXCfTHvoTZ3SFln4aRoXvqRMvHOOcuThlqr6ZlL9V6SmkYzh5r+XAMF9qizFyiJfEfqG8='
